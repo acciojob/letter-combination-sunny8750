@@ -31,6 +31,6 @@ function letterCombinations(digits) {
 }
  
   // Driver code
-    let str = "23";
+  let str = prompt("enter your digit");
     document.write(letterCombinations(str));  
 module.exports = letterCombinations;
